@@ -55,7 +55,7 @@ h3{background-color: #dddbdb7e;
      font-family: fantasy;
      color:rgb(2, 94, 2);
      letter-spacing: 3px;
-     margin: 10px;
+     margin: 4%;
 }
  
 li {
@@ -131,35 +131,35 @@ img {
 .footer {
     background: #303036 ;
     color:  #d3d3d3;
-    height: 400px;
+    height: 70%;
     position: relative;
    
     
 }
 .footer .footer-cnt {
     display: flex;
-    height: 350px;
+    height: 50%;
 }
  .footer .footer-cnt .footer-section{
      flex: 1;
      
-     padding: 25px;
+     padding: 2.5%;
  }
 
  .cr {
     background: #343a40;
     color: #686886;
-    height : 50px;
+    height : 4.5%;
     text-align: center;
     position: absolute;
     bottom: 0px;
     left: 0px;
-    padding-top: 20px;
+    padding-top: 2%;
     width: 100%;
 }
  
 .socials li{
-    font-size: 25px;
+    font-size: 200%;
     padding-right: 25px;
 }
  
