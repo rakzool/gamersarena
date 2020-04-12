@@ -21,7 +21,7 @@
  header {
      background-image: linear-gradient(#1a1a1a50, #1a1a1a50), url("../image/back.jpg");
      background-size: cover;
-     background-position: center;
+    /* background-position: center;*/
      height: 100vh;
  }
  
