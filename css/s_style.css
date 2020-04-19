@@ -95,15 +95,50 @@ body {
     min-height: 100vh;
 }
 
-.vid {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    min-width: 100%;
+.main {
+    background-image: url(../media/backdrop.gif);
     min-height: 100%;
-    z-index: -1;
+    min-width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    opacity: 0.7;
 }
 
-video {
-    display: none;
+
+/*----------------------transition------------------*/
+
+.pw:hover,
+.pw:active,
+.un:hover,
+.un:active {
+    transform: scale(1.16);
+    -webkit-transform: scale(1.16);
+    transition: 1s ease-in-out;
+    border: none;
+    border-bottom: 1.3px rgb(10, 197, 10) solid;
+}
+
+.btn:hover,
+.btn:active {
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transition: 500ms ease-in-out;
+    background-color: rgba(3, 104, 3, 0.507);
+    border: 1px solid rgba(3, 104, 3, 0.507);
+}
+
+li:hover,
+li:active {
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transition: 500ms ease-in-out;
+}
+
+.pellet:hover,
+.pellet:active {
+    transform: scale(1.16);
+    -webkit-transform: scale(1.16);
+    transition: 500ms ease-in-out;
 }
