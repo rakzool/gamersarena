@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pellet {
+    border: 1px black solid;
+    text-align: center;
+    display: inline-block;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 20px;
+    background-color: #000000d7;
+    height: 365px;
+}
+
+.sin {
+    font-family: 'Prompt', sans-serif;
+    font-size: 145%;
+    border-bottom: 3px rgb(10, 197, 10) solid;
+    margin-top: 10%;
+    text-align: left;
+    width: 40%;
+    padding-bottom: 1%;
+    color: aliceblue;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    font-size: 85%;
+    padding: 3%;
+    margin-bottom: 9%;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Prompt', sans-serif;
+    color: aliceblue;
+}
+
+.un,
+.pw {
+    text-align: left;
+    border-bottom: 1.3px rgb(10, 197, 10) solid;
+    padding-left: 0%;
+    padding-right: 0%;
+    color: aliceblue;
+    font-weight: 200;
+}
+
+.un {
+    margin-top: 20%;
+}
+
+.pw {
+    margin-top: 10%;
+}
+
+.btn {
+    margin-top: 12%;
+    margin-bottom: 18%;
+}
+
+.on,
+.tw {
+    border: none;
+    margin-left: 7%;
+    width: 83%;
+    background: none;
+    color: aliceblue;
+}
+
+.btn {
+    padding: 1% 5% 1% 5%;
+    border-radius: 22px;
+    border: 1px black solid;
+    background-color: rgba(16, 173, 16, 0.692);
+    font-family: 'Prompt', sans-serif;
+    color: aliceblue;
+}
+
+.header {
+    height: 165px;
+    width: 100%;
+}
+
+
+/*------backgrounds_--------------*/
+
+body {
+    background-image: linear-gradient(rgba(58, 56, 56, 0.507), rgba(58, 56, 56, 0.507)), url("../image/gamers.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.vid {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+video {
+    display: none;
+}
